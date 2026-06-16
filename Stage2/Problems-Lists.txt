@@ -1,0 +1,45 @@
+Stage 2 — Logic Building & Problem Solving
+
+This is where most of the practice happens.
+
+Conditions Problems
+Largest of Three Numbers
+Grade Calculator
+Divisible by 5 and 11
+Vowel or Consonant
+Multiple of 3 and 5
+
+Loop Basics
+Print 1 to 100
+Sum 1 to N
+Multiplication Table
+Factorial
+Reverse Number
+Count Digits
+Fibonacci
+Prime Number
+Palindrome Number
+
+Pattern Problems
+Right Triangle
+Inverted Triangle
+Pyramid
+Hollow Square
+Floyd's Triangle
+
+List Problems
+Largest Number
+Second Largest
+Smallest Number
+Sum of Array
+Reverse Array
+Count Even Numbers
+Find Duplicate
+Remove Duplicate
+
+String Problems
+Reverse String
+Palindrome String
+Count Vowels
+Count Words
+Character Frequency
