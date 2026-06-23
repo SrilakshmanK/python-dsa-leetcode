@@ -10,9 +10,7 @@ Vowel or Consonant
 Multiple of 3 and 5
 
 Loop Basics
-Print 1 to 100
-Sum 1 to N
-Multiplication Table
+
 Factorial
 Reverse Number
 Count Digits
@@ -43,3 +41,46 @@ Palindrome String
 Count Vowels
 Count Words
 Character Frequency
+
+
+
+
+Solve These Problems
+
+basic numbers :
+
+Print 1 to 100
+Sum 1 to N
+Multiplication Table
+Count Digits
+Sum of Digits
+Reverse Number
+
+Numbers:
+
+Palindrome Number
+Prime Number
+Print Prime Numbers 1-N
+Factorial
+Fibonacci
+
+Strings:
+Reverse String
+Palindrome String
+Count Vowels
+Character Frequency
+
+Arrays:
+Find Maximum
+Find Minimum
+Find Second Largest
+Linear Search
+
+Patterns:
+Right Triangle
+Inverted Triangle
+Pyramid
+
+Logic:
+Count Occurrences
+Graduation Test
