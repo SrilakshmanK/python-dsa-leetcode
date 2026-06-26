@@ -1,0 +1,239 @@
+📘 Phase 4 — Advanced DSA
+Stage 16 — Graphs
+🎯 Objective
+
+Master Graphs by understanding graph representations, traversal algorithms, connected components, shortest paths, and common interview patterns.
+
+Outcome:
+After completing this stage, you should confidently recognize Graph problems and solve Easy and Medium graph interview questions using DFS and BFS.
+
+📖 Why Graphs Exist
+
+Imagine Google Maps.
+
+Cities are connected by roads.
+
+      A
+     / \
+    B---C
+     \ /
+      D
+
+Questions become:
+
+Can I reach D?
+What is the shortest path?
+Is there a cycle?
+How many separate groups exist?
+
+A Graph models relationships between connected objects.
+
+📚 Concepts to Learn
+Graph Basics
+What is a Graph?
+Vertex (Node)
+Edge
+Directed Graph
+Undirected Graph
+Weighted Graph
+Unweighted Graph
+Graph Representation
+Adjacency List ✅
+Adjacency Matrix
+Edge List (Introduction)
+
+Understand the advantages and disadvantages of each.
+
+Graph Traversal
+Depth First Search (DFS)
+
+Learn:
+
+Recursive DFS
+Iterative DFS (using Stack)
+Breadth First Search (BFS)
+
+Learn:
+
+Queue-based BFS
+Level Order Traversal
+Shortest Path in Unweighted Graphs
+Graph Concepts
+Connected Components
+Cycle Detection (Introduction)
+Visited Array / Set
+Path Finding
+Reachability
+Shortest Path (Introduction)
+
+Understand the idea of:
+
+BFS for unweighted graphs
+
+Don't learn Dijkstra yet.
+
+⚙️ Operations You Should Know
+Add Vertex
+Add Edge
+Remove Edge (Concept)
+DFS Traversal
+BFS Traversal
+Find Connected Components
+Detect Reachability
+🧠 Pattern Recognition
+
+Think Graph when the problem contains:
+
+Cities
+Roads
+Flights
+Network
+Friends
+Connections
+Islands
+Routes
+Path
+Connected
+Components
+Dependencies
+
+Ask yourself:
+
+Can I model this as nodes connected by edges?
+
+↓
+
+Think Graph.
+
+⏱️ Complexity
+Adjacency List
+Operation	Complexity
+DFS	O(V + E)
+BFS	O(V + E)
+
+Where:
+
+V = Vertices
+E = Edges
+
+Understand why.
+
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself:
+
+Graph using Adjacency List
+DFS (Recursive)
+DFS (Iterative)
+BFS
+Count Connected Components
+Path Exists Between Two Nodes
+Detect Cycle (Undirected Graph - Concept)
+🟢 LeetCode Easy
+Find if Path Exists in Graph
+Find the Town Judge
+Employee Importance
+
+Target:
+
+3 Easy Problems
+
+🟡 LeetCode Medium
+
+Solve in this order:
+
+Number of Islands
+Clone Graph
+Flood Fill
+Rotting Oranges
+Pacific Atlantic Water Flow
+Surrounded Regions
+Course Schedule
+Course Schedule II
+Keys and Rooms
+Number of Provinces
+
+Target:
+
+10 Medium Problems
+
+🔴 Hard (Optional)
+Word Ladder
+Alien Dictionary
+Critical Connections in a Network
+
+Read the solution if necessary.
+
+Don't spend days on them.
+
+❌ Common Mistakes
+Forgetting the visited set.
+Infinite traversal due to cycles.
+Mixing DFS and BFS.
+Using recursion without considering stack depth.
+Traversing disconnected graphs incorrectly.
+Forgetting graph direction (directed vs undirected).
+🎯 Interview Tips
+
+Whenever you see:
+
+Network
+
+↓
+
+Connections
+
+↓
+
+Path
+
+↓
+
+Route
+
+↓
+
+Dependencies
+
+↓
+
+Islands
+
+Immediately ask:
+
+Is this a Graph problem?
+
+Then ask:
+
+Need shortest path?
+
+↓
+
+BFS
+
+Need to explore everything?
+
+↓
+
+DFS
+🔄 Revision Problems
+
+Without looking:
+
+Number of Islands
+Clone Graph
+Flood Fill
+Course Schedule
+Number of Provinces
+✅ Completion Checklist
+
+Move to Stage 17 only if you can:
+
+✅ Explain Graph terminology.
+✅ Build a Graph using an Adjacency List.
+✅ Implement DFS (Recursive & Iterative).
+✅ Implement BFS.
+✅ Solve Easy Graph problems independently.
+✅ Solve most Medium Graph problems with minimal hints.
+✅ Explain why DFS and BFS are O(V + E).
+✅ Recognize Graph problems in interviews.

@@ -1,0 +1,178 @@
+Stage 4 — Strings
+🎯 Objective
+
+Master string manipulation techniques, understand common string patterns, and solve interview-style string problems efficiently.
+
+Outcome:
+After completing this stage, you should confidently solve most Easy and Medium string problems and recognize common string manipulation patterns.
+
+📖 Why Strings Exist
+
+A string is simply an array of characters.
+
+However, interview questions involving strings often focus on:
+
+Character manipulation
+Pattern matching
+Frequency counting
+Parsing
+Validation
+
+Many advanced algorithms later (Trie, KMP, Rabin-Karp) are built upon these fundamentals.
+
+📚 Concepts to Learn
+String Basics
+What is a String?
+String Immutability (Python)
+Character Access
+Traversal
+Length
+String Comparison
+String Operations
+Concatenation
+Slicing
+Splitting
+Joining
+Replacing
+Case Conversion
+Trimming Spaces
+String Methods
+
+Learn when to use:
+
+lower()
+upper()
+strip()
+split()
+join()
+replace()
+find()
+count()
+startswith()
+endswith()
+isalpha()
+isdigit()
+isalnum()
+Common String Problems
+Reverse String
+Palindrome
+Count Characters
+Character Frequency
+Remove Spaces
+Toggle Case
+Reverse Words
+String Compression (Basic)
+⚙️ Operations You Should Know
+Traverse
+Reverse
+Compare
+Count
+Replace
+Split
+Join
+Validate
+🧠 Pattern Recognition
+
+Think Strings when the problem contains:
+
+Characters
+Words
+Sentences
+Text processing
+Palindrome
+Reverse
+Validation
+Frequency of characters
+
+Ask yourself:
+
+"Am I manipulating text or characters?"
+
+If yes, it's likely a String problem.
+
+⏱️ Complexity
+
+Know these:
+
+Operation	Complexity
+Access Character	O(1)
+Traverse	O(n)
+Reverse	O(n)
+Compare	O(n)
+Concatenation	O(n)
+Slicing	O(k)
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Valid Palindrome
+Reverse String
+Reverse Words in a String III
+Valid Anagram (without HashMap optimization first)
+Length of Last Word
+Roman to Integer
+Longest Common Prefix
+Detect Capital
+First Unique Character in a String
+Excel Sheet Column Number
+
+Target:
+
+10 Easy Problems
+
+🟡 LeetCode Medium
+String Compression
+Zigzag Conversion
+Group Anagrams (brute force first)
+Decode String
+Simplify Path
+Reverse Words in a String
+
+Target:
+
+5–6 Medium Problems
+
+🔴 Hard (Optional)
+Text Justification
+
+Only understand the approach.
+
+Move on.
+
+❌ Common Mistakes
+Forgetting strings are immutable in Python.
+Off-by-one errors.
+Incorrect slicing.
+Confusing characters with words.
+Ignoring uppercase/lowercase.
+Forgetting whitespace handling.
+Building strings inefficiently inside loops.
+🎯 Interview Tips
+
+When you see a string problem, ask:
+
+Do I need to reverse?
+Is it a palindrome?
+Am I comparing characters?
+Can slicing help?
+Should I use built-in methods?
+Is this actually a HashMap problem disguised as a String problem?
+🔄 Revision Problems
+
+Before moving on, solve again without looking:
+
+Reverse String
+Valid Palindrome
+Longest Common Prefix
+Roman to Integer
+String Compression
+✅ Completion Checklist
+
+Move to Stage 5 only if you can:
+
+✅ Manipulate strings confidently.
+✅ Explain Python string immutability.
+✅ Solve Easy string problems independently.
+✅ Solve Medium problems with minimal hints.
+✅ Analyze time complexity.
+✅ Recognize common string patterns.

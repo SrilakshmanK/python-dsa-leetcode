@@ -1,0 +1,348 @@
+📘 Phase 4 — Advanced DSA
+Stage 18 — Advanced Interview Patterns
+🎯 Objective
+
+Master advanced interview patterns by learning when and how to combine multiple DSA concepts to solve real interview questions efficiently.
+
+Outcome:
+After completing this stage, you should be able to recognize hidden patterns in interview questions, select the appropriate algorithm or data structure, and approach unseen problems with confidence.
+
+📖 Why This Stage Exists
+
+By now, you've learned:
+
+Arrays
+Strings
+Hash Maps
+Two Pointers
+Sliding Window
+Binary Search
+Recursion
+Stack
+Queue
+Linked List
+Trees
+Heap
+Backtracking
+Graphs
+Dynamic Programming
+
+But interviews rarely tell you:
+
+"Use a Hash Map."
+
+Instead they ask:
+
+Solve this problem.
+
+Your real skill is recognizing which pattern fits.
+
+This stage develops that skill.
+
+📚 Concepts to Learn
+Greedy Algorithms
+
+Learn
+
+What is Greedy?
+Local Optimum
+Global Optimum
+When Greedy Works
+Greedy vs Dynamic Programming
+Prefix Sum
+
+Learn
+
+Prefix Sum Array
+Range Sum Query
+Prefix Frequency
+2D Prefix Sum (Introduction)
+Interval Problems
+
+Learn
+
+Merge Intervals
+Overlapping Intervals
+Insert Interval
+Meeting Rooms Pattern
+Monotonic Stack
+
+Learn
+
+Increasing Stack
+Decreasing Stack
+Next Greater Element
+Previous Greater Element
+Bit Manipulation (Interview Basics)
+
+Learn
+
+AND
+OR
+XOR
+NOT
+Left Shift
+Right Shift
+
+Applications
+
+Odd / Even
+Power of Two
+Single Number
+Bit Mask Basics
+Union Find (Disjoint Set Union)
+
+Learn
+
+Parent Array
+Find
+Union
+Path Compression (Concept)
+Union by Rank (Concept)
+
+Applications
+
+Connected Components
+Cycle Detection
+Advanced Binary Search
+
+Learn
+
+Binary Search on Answer
+Lower Bound
+Upper Bound
+Monotonic Functions
+Mixed Pattern Problems
+
+Learn how to combine:
+
+Hash Map + Sliding Window
+Heap + Hash Map
+Graph + BFS
+Tree + DFS
+Binary Search + Greedy
+DP + Binary Search (Introduction)
+⚙️ Operations You Should Know
+Merge Intervals
+Compute Prefix Sum
+Maintain Monotonic Stack
+Perform Union / Find
+Binary Search on Answer
+Basic Bit Operations
+🧠 Pattern Recognition
+
+When reading a problem, ask:
+
+Does it ask for:
+
+↓
+
+Maximum / Minimum
+
+↓
+
+Greedy or DP?
+Range Query
+
+↓
+
+Prefix Sum?
+Intervals
+
+↓
+
+Merge?
+Next Greater
+
+↓
+
+Monotonic Stack?
+Groups / Connectivity
+
+↓
+
+Union Find?
+Bitwise Operations
+
+↓
+
+Bit Manipulation?
+
+Pattern recognition is now your primary goal.
+
+⏱️ Complexity
+
+Understand the complexity of:
+
+Greedy Algorithms
+Prefix Sum
+Union Find (Amortized nearly O(1))
+Monotonic Stack (O(n))
+Binary Search on Answer (O(log n) search × validation cost)
+🟢 LeetCode Easy
+Single Number (Bit Manipulation)
+Best Time to Buy and Sell Stock (Greedy)
+Range Sum Query - Immutable (Prefix Sum)
+Assign Cookies (Greedy)
+Find the Difference (Bit Manipulation)
+
+Target:
+
+5 Easy Problems
+
+🟡 LeetCode Medium
+
+Solve in this order:
+
+Prefix Sum
+Subarray Sum Equals K
+Continuous Subarray Sum
+Greedy
+Jump Game
+Gas Station
+Intervals
+Merge Intervals
+Insert Interval
+Non-overlapping Intervals
+Monotonic Stack
+Next Greater Element II
+Online Stock Span
+Union Find
+Redundant Connection
+Accounts Merge
+
+Target:
+
+10–12 Medium Problems
+
+🔴 Hard (Optional)
+Trapping Rain Water (Monotonic Stack approach)
+Largest Rectangle in Histogram
+Candy
+Swim in Rising Water
+
+Understand the approach.
+
+No need to master every Hard problem.
+
+❌ Common Mistakes
+Choosing DP when Greedy is sufficient.
+Using sorting when Prefix Sum is enough.
+Missing interval overlap cases.
+Incorrect Union Find implementation.
+Overusing Bit Manipulation.
+Trying to force one pattern onto every problem.
+🎯 Interview Tips
+
+Before coding, ask yourself:
+
+Is this...
+
+Array?
+
+↓
+
+String?
+
+↓
+
+Hash Map?
+
+↓
+
+Two Pointers?
+
+↓
+
+Sliding Window?
+
+↓
+
+Binary Search?
+
+↓
+
+Stack?
+
+↓
+
+Queue?
+
+↓
+
+Linked List?
+
+↓
+
+Tree?
+
+↓
+
+Heap?
+
+↓
+
+Backtracking?
+
+↓
+
+Graph?
+
+↓
+
+Dynamic Programming?
+
+↓
+
+Greedy?
+
+↓
+
+Prefix Sum?
+
+↓
+
+Interval?
+
+↓
+
+Union Find?
+
+↓
+
+Bit Manipulation?
+
+The best interviewers aren't looking for memorized code.
+
+They're evaluating whether you can identify the right pattern.
+
+🔄 Final Revision Set
+
+Without looking at previous solutions, solve:
+
+Two Sum
+Longest Substring Without Repeating Characters
+Binary Search
+Reverse Linked List
+Maximum Depth of Binary Tree
+Kth Largest Element in an Array
+Number of Islands
+Combination Sum
+Coin Change
+Merge Intervals
+
+These ten problems cover almost every major pattern in the roadmap.
+
+✅ Graduation Checklist
+
+You should now be able to:
+
+✅ Analyze problem statements.
+✅ Identify the correct DSA pattern.
+✅ Explain brute-force solutions.
+✅ Optimize solutions.
+✅ Analyze time complexity.
+✅ Analyze space complexity.
+✅ Solve Easy problems independently.
+✅ Solve most Medium problems confidently.
+✅ Attempt Hard problems with structured thinking.

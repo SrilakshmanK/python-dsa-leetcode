@@ -1,0 +1,205 @@
+📘 Phase 3 — Core Data Structures & Algorithms
+Stage 9 — Recursion
+🎯 Objective
+
+Understand recursion as a problem-solving technique by learning how a function can solve a problem by calling itself and mastering the concept of the call stack.
+
+Outcome:
+After completing this stage, you should confidently identify recursive problems, write recursive solutions, trace recursive calls, and convert simple recursive solutions into iterative ones when appropriate.
+
+📖 Why Recursion Exists
+
+Imagine climbing stairs.
+
+To reach stair 10, you first need to reach stair 9.
+
+To reach stair 9, you first need to reach stair 8.
+
+Eventually...
+
+10
+
+↓
+
+9
+
+↓
+
+8
+
+↓
+
+...
+
+↓
+
+1
+
+Every step depends on solving a smaller version of the same problem.
+
+That's recursion.
+
+Instead of solving one huge problem,
+
+solve a smaller version,
+
+until the problem becomes trivial.
+
+📚 Concepts to Learn
+Recursion Basics
+What is Recursion?
+Recursive Thinking
+Recursive Function
+Base Case
+Recursive Case
+Call Stack
+Function Calls
+Stack Frames
+Return Order
+Stack Unwinding
+Stack Overflow
+Types of Recursion
+Direct Recursion
+Indirect Recursion (Concept)
+Tail Recursion (Concept)
+Head Recursion (Concept)
+Recursive Problem Solving
+
+Learn how to identify:
+
+Smaller Problem
+Base Case
+Recursive Relation
+Recursion vs Iteration
+When recursion is better
+When loops are better
+Advantages
+Disadvantages
+⚙️ Operations You Should Know
+Write Base Case
+Write Recursive Call
+Trace Call Stack
+Dry Run on Paper
+🧠 Pattern Recognition
+
+Think Recursion when the problem says:
+
+Repeat until...
+Smaller Subproblem
+Tree Traversal
+Divide and Conquer
+DFS
+Backtracking
+
+Ask yourself:
+
+Can I solve a smaller version of this same problem?
+
+If yes
+
+↓
+
+Think Recursion.
+
+⏱️ Complexity
+
+Understand:
+
+Recursive Depth
+Time Complexity
+Space Complexity (Call Stack)
+
+Examples:
+
+Problem	Time	Space
+Factorial	O(n)	O(n)
+Reverse String	O(n)	O(n)
+Binary Search	O(log n)	O(log n)
+🟢 Practice Problems (Non-LeetCode)
+
+Before LeetCode, implement these yourself:
+
+Factorial
+Fibonacci
+Sum of First N Numbers
+Power Function
+Reverse String
+Reverse Array
+Print 1 to N
+Print N to 1
+Sum of Array
+Find Maximum in Array
+
+These build recursive thinking without interview pressure.
+
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Fibonacci Number
+Power of Two
+Climbing Stairs
+Binary Search (Recursive Version)
+Reverse String
+Merge Two Binary Trees (Introduction to Tree Recursion)
+
+Target:
+
+5–6 Easy Problems
+
+🟡 LeetCode Medium
+Pow(x, n)
+Generate Parentheses (Understand after Backtracking if difficult)
+Letter Combinations of a Phone Number (Introduction)
+Different Ways to Add Parentheses
+
+Target:
+
+3–4 Medium Problems
+
+🔴 Hard (Optional)
+
+Skip for now.
+
+Most recursion-heavy Hard problems depend on Dynamic Programming or advanced Backtracking.
+
+❌ Common Mistakes
+Missing Base Case.
+Infinite Recursion.
+Incorrect Return Statements.
+Forgetting to return recursive results.
+Confusing recursion depth.
+Stack Overflow.
+Modifying variables incorrectly.
+🎯 Interview Tips
+
+Whenever you solve a recursive problem, ask:
+
+What is my base case?
+What is my smaller problem?
+What does my recursive function return?
+What happens after the recursive call returns?
+
+If you can't answer these,
+
+don't code yet.
+
+🔄 Revision Problems
+
+Without looking:
+
+Factorial
+Fibonacci
+Reverse String
+Sum of Array
+Binary Search (Recursive)
+✅ Completion Checklist
+
+Move to Stage 10 only if you can:
+
+✅ Explain recursion in your own words.
+✅ Draw the call stack.
+✅ Write recursive functions from scratch.
+✅ Solve Easy recursion problems independently.
+✅ Analyze recursive time and space complexity.
+✅ Explain recursion vs iteration.

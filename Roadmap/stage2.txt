@@ -1,0 +1,127 @@
+📘 Stage 2 — Logic Building
+🎯 Objective
+
+Develop problem-solving skills by solving fundamental programming problems without relying on advanced data structures.
+
+Outcome:
+After completing this stage, you should be able to analyze a problem, design a solution, and implement it independently using loops, conditions, strings, and basic lists.
+
+Why This Stage Exists
+
+Before solving interview problems on LeetCode, you must learn how to think.
+
+This stage teaches algorithmic thinking rather than specific data structures.
+
+Topics
+Number Problems
+
+You have already completed
+
+✅ Count Digits
+✅ Sum of Digits
+✅ Reverse Number
+✅ Multiplication Table
+✅ Print 1–100
+✅ Sum 1–N
+
+Now continue with
+
+Palindrome Number
+Armstrong Number
+Prime Number
+Print Prime Numbers (1–N)
+Factorial
+Fibonacci Series
+GCD / HCF
+LCM
+Perfect Number
+Strong Number
+String Problems
+Reverse String
+Palindrome String
+Count Vowels
+Count Consonants
+Count Words
+Count Characters
+Character Frequency
+Remove Spaces
+Toggle Case
+Check Anagram
+Array Problems
+Find Maximum
+Find Minimum
+Find Second Largest
+Find Second Smallest
+Sum of Array
+Average of Array
+Count Even & Odd
+Linear Search
+Reverse Array
+Copy Array
+Pattern Problems
+Right Triangle
+Inverted Triangle
+Pyramid
+Inverted Pyramid
+Floyd's Triangle
+Number Pyramid
+Diamond Pattern
+Hollow Square
+Basic Logic Problems
+Count Occurrences
+Remove Duplicates (without sets)
+Find Largest Digit
+Find Smallest Digit
+Swap Numbers
+Swap Without Third Variable
+Decimal to Binary (Logic)
+Binary to Decimal (Logic)
+Pattern Recognition
+
+At this stage ask yourself:
+
+Which loop should I use?
+Do I need nested loops?
+Can I solve it using math instead of brute force?
+Can I trace the algorithm on paper?
+Complexity (Basic)
+
+Understand only:
+
+O(1)
+O(n)
+O(n²)
+
+No advanced complexity yet.
+
+Common Mistakes
+Infinite loops
+Wrong loop condition
+Forgetting to reset variables
+Integer division mistakes
+Incorrect string indexing
+Off-by-one errors
+Not tracing the logic before coding
+Completion Criteria
+
+Move to Stage 3 only if you can:
+
+✅ Solve number problems without tutorials.
+✅ Solve string problems independently.
+✅ Solve array basics comfortably.
+✅ Draw pattern problems without copying.
+✅ Explain your solution before coding.
+✅ Identify whether the solution is O(1), O(n), or O(n²).
+Mini Challenge (No Tutorials)
+
+Solve these completely on your own:
+
+Prime Number
+Fibonacci Series
+Character Frequency
+Second Largest in Array
+Reverse String
+Armstrong Number
+Palindrome Number
+
+If you can solve these without looking at solutions, you're ready for LeetCode.

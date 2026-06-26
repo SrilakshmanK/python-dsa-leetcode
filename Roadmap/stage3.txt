@@ -1,0 +1,174 @@
+Stage 3 — Arrays
+🎯 Objective
+
+Master arrays by understanding how data is stored, accessed, modified, and traversed while solving interview-style problems.
+
+Outcome:
+After completing this stage, you should be able to recognize array-based problems, implement efficient solutions, and comfortably solve Easy and Medium array questions on LeetCode.
+
+📖 Why Arrays Exist
+
+Arrays are the most fundamental data structure.
+
+Almost every data structure (Stacks, Queues, Heaps, Hash Tables, etc.) is built using arrays internally.
+
+Mastering arrays is the first step toward mastering DSA.
+
+📚 Concepts to Learn
+Array Basics
+What is an Array?
+Memory Representation
+Indexing
+Traversal
+Updating Elements
+Insertion
+Deletion
+Array Length
+Traversal
+Forward Traversal
+Reverse Traversal
+Searching
+Linear Search
+When Binary Search is NOT applicable
+Basic Operations
+Find Maximum
+Find Minimum
+Sum of Array
+Average
+Reverse Array
+Copy Array
+Rotate Array (Left)
+Rotate Array (Right)
+In-place Operations
+Swapping
+Shifting
+Removing Elements
+Updating Values
+⚙️ Operations You Should Know
+Traverse
+Search
+Insert
+Delete
+Update
+Reverse
+Rotate
+Merge
+Count Elements
+🧠 Pattern Recognition
+
+When should you think about Arrays?
+
+Look for questions involving:
+
+Collection of numbers
+Index-based access
+Traversal
+Maximum / Minimum
+Sum
+Frequency
+Rearranging elements
+Rotation
+Sequential processing
+⏱️ Complexity
+
+Know these complexities:
+
+Operation	Complexity
+Access	O(1)
+Search	O(n)
+Insert (End)	O(1) Amortized
+Insert (Middle)	O(n)
+Delete	O(n)
+Traverse	O(n)
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Two Sum (Easy)
+Contains Duplicate
+Remove Duplicates from Sorted Array
+Remove Element
+Merge Sorted Array
+Move Zeroes
+Best Time to Buy and Sell Stock
+Majority Element
+Missing Number
+Find Pivot Index
+Find Numbers with Even Number of Digits
+Squares of a Sorted Array
+
+Target:
+
+10–12 Easy Problems
+
+🟡 LeetCode Medium
+
+After Easy:
+
+Rotate Array
+Product of Array Except Self
+Sort Colors
+3Sum
+Find All Duplicates in an Array
+Set Matrix Zeroes
+Spiral Matrix
+Game of Life
+
+Target:
+
+6–8 Medium Problems
+
+🔴 Hard (Optional)
+
+Only after completing everything above.
+
+First Missing Positive
+Trapping Rain Water
+
+Do not spend days here.
+
+Move on if you understand the approach.
+
+❌ Common Mistakes
+Index Out of Range
+Off-by-One Errors
+Forgetting Edge Cases
+Modifying While Traversing
+Extra Space When Not Needed
+Ignoring Empty Arrays
+Confusing Index with Value
+🎯 Interview Tips
+
+When you see an array problem, ask:
+
+Can I solve this with one traversal?
+Do I need two traversals?
+Can I avoid nested loops?
+Can I use extra memory?
+Can I solve it in-place?
+
+Always think about optimization after getting the brute-force solution working.
+
+🔄 Revision Problems
+
+Before moving on, re-solve without looking at your previous code:
+
+Two Sum
+Contains Duplicate
+Move Zeroes
+Merge Sorted Array
+Product of Array Except Self
+
+If you can't solve them from memory, revise before continuing.
+
+✅ Completion Checklist
+
+Move to Stage 4 only if you can:
+
+✅ Explain how arrays are stored in memory.
+✅ Perform all basic array operations.
+✅ Solve Easy array problems independently.
+✅ Solve most Medium array problems with minimal hints.
+✅ Explain brute-force and optimized solutions.
+✅ Analyze time and space complexity.
+✅ Recognize when a problem is fundamentally an array problem.

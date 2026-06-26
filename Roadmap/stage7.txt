@@ -1,0 +1,207 @@
+📘 Phase 2 — LeetCode Foundation
+Stage 7 — Sliding Window
+🎯 Objective
+
+Master the Sliding Window technique to efficiently solve problems involving contiguous subarrays and substrings by replacing nested loops with a dynamic window.
+
+Outcome:
+After completing this stage, you should recognize Sliding Window problems instantly and solve most Easy and Medium questions efficiently.
+
+📖 Why Sliding Window Exists
+
+Imagine this problem:
+
+Find the maximum sum of any subarray of size k.
+
+Brute Force:
+
+Check every possible subarray
+
+↓
+
+O(n × k)
+
+Instead...
+
+Maintain a window.
+
+[ Window ]
+
+Move one step.
+
+Remove one element.
+
+Add one element.
+
+O(n)
+
+That's why Sliding Window exists.
+
+📚 Concepts to Learn
+Introduction
+What is Sliding Window?
+Why use Sliding Window?
+Fixed Window
+Variable Window
+Fixed Size Window
+
+Used when:
+
+Window size is already given.
+Example:
+
+Maximum Sum of Size K
+
+Variable Size Window
+
+Used when:
+
+Window expands.
+Window shrinks.
+Find longest.
+Find shortest.
+Find minimum.
+Find maximum.
+Window Operations
+Expand Window
+Shrink Window
+Update Answer
+Maintain Window Condition
+⚙️ Operations You Should Know
+Expand Right Pointer
+Shrink Left Pointer
+Maintain Window Size
+Maintain Window Sum
+Character Frequency inside Window
+Window Validation
+🧠 Pattern Recognition
+
+Think Sliding Window when the question contains:
+
+Subarray
+Substring
+Contiguous
+Longest
+Shortest
+Maximum
+Minimum
+Window Size
+Consecutive Elements
+
+Ask yourself:
+
+Is the question asking about a continuous section of an array or string?
+
+If yes
+
+↓
+
+Think Sliding Window.
+
+⏱️ Complexity
+
+Typical Complexity
+
+Operation	Complexity
+Traversal	O(n)
+Extra Space	O(1) to O(k)
+
+Most Sliding Window problems reduce:
+
+O(n²)
+
+↓
+
+O(n)
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Maximum Average Subarray I
+Contains Duplicate II
+Defuse the Bomb
+Diet Plan Performance
+Grumpy Bookstore Owner
+
+Target:
+
+5 Easy Problems
+
+🟡 LeetCode Medium
+
+Solve in this order:
+
+Longest Substring Without Repeating Characters
+Permutation in String
+Longest Repeating Character Replacement
+Minimum Size Subarray Sum
+Fruit Into Baskets
+Maximum Erasure Value
+Minimum Window Substring (Attempt after others)
+
+Target:
+
+6–7 Medium Problems
+
+🔴 Hard (Optional)
+Sliding Window Maximum
+
+Understand the deque approach.
+
+Don't worry if it feels difficult now.
+
+❌ Common Mistakes
+Forgetting to shrink the window.
+Shrinking too early.
+Incorrect window size.
+Updating the answer at the wrong time.
+Confusing Sliding Window with Two Pointers.
+Losing track of frequency counts.
+🎯 Interview Tips
+
+Ask yourself:
+
+Does the question contain:
+
+Longest
+
+Shortest
+
+Maximum
+
+Minimum
+
+Contiguous
+
+Substring
+
+Subarray
+
+If yes
+
+↓
+
+Sliding Window is probably the intended solution.
+
+🔄 Revision Problems
+
+Before moving on, solve again:
+
+Maximum Average Subarray I
+Longest Substring Without Repeating Characters
+Permutation in String
+Fruit Into Baskets
+Minimum Size Subarray Sum
+
+Without looking at previous solutions.
+
+✅ Completion Checklist
+
+Move to Stage 8 only if you can:
+
+✅ Explain Fixed vs Variable Sliding Window.
+✅ Recognize Sliding Window problems quickly.
+✅ Solve Easy problems independently.
+✅ Solve most Medium problems with minimal hints.
+✅ Optimize brute-force solutions to O(n).
+✅ Explain why the window expands or shrinks.

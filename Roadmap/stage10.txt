@@ -1,0 +1,189 @@
+📘 Phase 3 — Core Data Structures & Algorithms
+Stage 10 — Stack
+🎯 Objective
+
+Master the Stack data structure and solve interview problems involving Last-In, First-Out (LIFO) operations.
+
+Outcome:
+After completing this stage, you should confidently recognize Stack problems, implement a Stack, and solve common interview questions efficiently.
+
+📖 Why Stacks Exist
+
+Imagine a stack of plates.
+
+You always place a new plate on the top.
+
+You always remove the top plate.
+
+      ┌─────┐
+Top → │  5  │
+      ├─────┤
+      │  4  │
+      ├─────┤
+      │  3  │
+      ├─────┤
+      │  2  │
+      ├─────┤
+      │  1  │
+      └─────┘
+
+The last plate you put in is the first one you remove.
+
+Last In
+
+↓
+
+First Out
+
+That's called LIFO (Last In, First Out).
+
+📚 Concepts to Learn
+Stack Basics
+What is a Stack?
+LIFO Principle
+Stack Representation
+Stack Applications
+Stack Operations
+Push
+Pop
+Peek / Top
+isEmpty
+Size
+Stack Implementation
+Using Python List
+Using collections.deque
+Basic Custom Stack Class
+Stack Applications
+Function Call Stack
+Undo / Redo
+Browser History
+Parentheses Matching
+Expression Evaluation
+DFS (Preview)
+⚙️ Operations You Should Know
+Push
+Pop
+Peek
+Check Empty
+Size
+Traverse (Basic)
+🧠 Pattern Recognition
+
+Think Stack when the problem contains:
+
+Parentheses
+Brackets
+Nested Structures
+Undo
+Reverse Processing
+Next Greater Element
+Previous Greater Element
+Expression Evaluation
+
+Ask yourself:
+
+Do I need to remember the most recent item first?
+
+If yes
+
+↓
+
+Think Stack.
+
+⏱️ Complexity
+Operation	Complexity
+Push	O(1)
+Pop	O(1)
+Peek	O(1)
+Search	O(n)
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself:
+
+Stack using List
+Push Operation
+Pop Operation
+Peek Operation
+Reverse String using Stack
+Decimal to Binary using Stack
+Check Balanced Parentheses
+Evaluate Postfix Expression (Basic)
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Valid Parentheses
+Baseball Game
+Backspace String Compare
+Remove Outermost Parentheses
+Make The String Great
+Implement Stack using Queues
+
+Target:
+
+6 Easy Problems
+
+🟡 LeetCode Medium
+Min Stack
+Daily Temperatures
+Evaluate Reverse Polish Notation
+Asteroid Collision
+Decode String
+Simplify Path
+
+Target:
+
+6 Medium Problems
+
+🔴 Hard (Optional)
+Largest Rectangle in Histogram
+
+Don't worry if you can't solve it immediately.
+
+You'll revisit Monotonic Stack in Stage 18.
+
+❌ Common Mistakes
+Popping from an empty stack.
+Forgetting to check if the stack is empty.
+Using Queue instead of Stack.
+Confusing Push and Pop order.
+Losing track of stack contents while debugging.
+🎯 Interview Tips
+
+Whenever you see:
+
+Nested
+
+Matching
+
+Undo
+
+Reverse
+
+Recent
+
+Immediately ask:
+
+Can a Stack solve this?
+
+A surprising number of interview questions hide Stack usage behind strings or arrays.
+
+🔄 Revision Problems
+
+Without looking:
+
+Valid Parentheses
+Min Stack
+Daily Temperatures
+Decode String
+Reverse String using Stack
+✅ Completion Checklist
+
+Move to Stage 11 only if you can:
+
+✅ Explain LIFO.
+✅ Implement a Stack from scratch.
+✅ Solve Easy Stack problems independently.
+✅ Solve Medium Stack problems with minimal hints.
+✅ Explain Push, Pop, Peek complexities.
+✅ Recognize Stack patterns in interviews.

@@ -1,0 +1,272 @@
+📘 Phase 3 — Core Data Structures & Algorithms
+Stage 13 — Trees & Binary Search Trees (BST)
+🎯 Objective
+
+Master Trees and Binary Search Trees by understanding hierarchical data structures, tree traversals, recursive thinking, and common interview patterns.
+
+Outcome:
+After completing this stage, you should confidently solve Easy and Medium Tree problems, understand recursive traversals, and recognize Binary Search Tree properties.
+
+📖 Why Trees Exist
+
+Imagine organizing files.
+
+Would you store everything in one folder?
+
+No.
+
+You naturally create folders inside folders.
+
+Documents
+│
+├── College
+│   ├── MCA
+│   └── Certificates
+│
+└── Personal
+    ├── Photos
+    └── Resume
+
+That's a Tree.
+
+Trees are used whenever data has a parent-child relationship.
+
+Examples:
+
+File Systems
+HTML DOM
+Organization Charts
+Decision Trees
+Databases
+Compilers
+📚 Concepts to Learn
+Tree Basics
+What is a Tree?
+Root Node
+Parent
+Child
+Leaf Node
+Siblings
+Edge
+Height
+Depth
+Level
+Subtree
+Binary Tree
+Binary Tree
+Full Binary Tree
+Complete Binary Tree
+Perfect Binary Tree
+Balanced Binary Tree
+Skewed Tree
+
+Understand the differences.
+
+Binary Search Tree (BST)
+
+Learn the BST Rule:
+
+Left Subtree
+
+< Root
+
+< Right Subtree
+
+Properties
+
+Searching
+Insertion
+Deletion (Concept)
+Ordered Traversal
+Tree Traversals
+Depth First Search (DFS)
+Preorder
+Inorder
+Postorder
+Breadth First Search (BFS)
+Level Order Traversal
+Recursive Tree Thinking
+
+Learn how recursion naturally works with trees.
+
+⚙️ Operations You Should Know
+Insert
+Search
+Traverse
+Find Height
+Count Nodes
+Count Leaf Nodes
+Find Minimum
+Find Maximum
+🧠 Pattern Recognition
+
+Think Tree when the problem contains:
+
+Parent
+Child
+Root
+Leaf
+Hierarchy
+Levels
+Paths
+Height
+Depth
+
+Think BST when the question says:
+
+Sorted
+Ordered
+Search
+Minimum
+Maximum
+⏱️ Complexity
+Binary Tree
+
+Traversal
+
+O(n)
+Binary Search Tree
+
+Average
+
+Operation	Complexity
+Search	O(log n)
+Insert	O(log n)
+Delete	O(log n)
+
+Worst Case
+
+O(n)
+
+Understand why.
+
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself
+
+Create Tree Node
+Preorder Traversal
+Inorder Traversal
+Postorder Traversal
+Level Order Traversal
+Tree Height
+Count Nodes
+Count Leaf Nodes
+BST Search
+BST Insert
+🟢 LeetCode Easy
+
+Solve in this order
+
+Maximum Depth of Binary Tree
+Same Tree
+Symmetric Tree
+Invert Binary Tree
+Path Sum
+Minimum Depth of Binary Tree
+Balanced Binary Tree
+Binary Tree Inorder Traversal
+Binary Tree Preorder Traversal
+Binary Tree Postorder Traversal
+
+Target
+
+10 Easy Problems
+
+🟡 LeetCode Medium
+Binary Tree Level Order Traversal
+Validate Binary Search Tree
+Lowest Common Ancestor of a BST
+Kth Smallest Element in a BST
+Construct Binary Tree from Preorder and Inorder Traversal
+Binary Tree Right Side View
+Flatten Binary Tree to Linked List
+Path Sum II
+
+Target
+
+8 Medium Problems
+
+🔴 Hard (Optional)
+Serialize and Deserialize Binary Tree
+Binary Tree Maximum Path Sum
+
+Understand the approach.
+
+Don't spend excessive time here.
+
+❌ Common Mistakes
+Confusing Height and Depth.
+Mixing DFS and BFS.
+Wrong traversal order.
+Forgetting the BST property.
+Incorrect recursive base case.
+Returning the wrong subtree.
+Not handling None nodes.
+🎯 Interview Tips
+
+Whenever you see:
+
+Hierarchy
+
+↓
+
+Parent
+
+↓
+
+Children
+
+↓
+
+Recursive Structure
+
+Think:
+
+Tree
+
+Whenever you see:
+
+Ordered Tree
+
+↓
+
+Search
+
+↓
+
+Minimum
+
+↓
+
+Maximum
+
+Think:
+
+BST
+
+Also ask:
+
+DFS or BFS?
+Recursive or Iterative?
+Is this actually a BST?
+🔄 Revision Problems
+
+Without looking:
+
+Maximum Depth of Binary Tree
+Same Tree
+Invert Binary Tree
+Validate BST
+Level Order Traversal
+✅ Completion Checklist
+
+Move to Stage 14 only if you can:
+
+✅ Explain Tree terminology.
+✅ Implement all DFS traversals.
+✅ Implement BFS (Level Order).
+✅ Explain BST properties.
+✅ Solve Easy Tree problems independently.
+✅ Solve most Medium Tree problems with minimal hints.
+✅ Explain the time complexity of traversals and BST operations.

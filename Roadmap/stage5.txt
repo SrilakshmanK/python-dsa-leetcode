@@ -1,0 +1,212 @@
+Stage 5 — Hash Maps & Sets
+🎯 Objective
+
+Master Hash Maps and Sets to perform fast lookups, frequency counting, duplicate detection, and optimize brute-force solutions.
+
+Outcome:
+After completing this stage, you should be able to recognize when a problem requires constant-time lookups and confidently solve Easy and Medium Hash Map problems.
+
+📖 Why Hash Maps Exist
+
+Imagine you're solving this problem:
+
+Find whether a duplicate exists in an array.
+
+Brute Force:
+
+Compare every element with every other element
+
+↓
+
+O(n²)
+
+Can we do better?
+
+Yes.
+
+Store previously seen numbers.
+
+Lookup becomes:
+
+O(1)
+
+Overall solution:
+
+O(n)
+
+That's why Hash Maps exist.
+
+📚 Concepts to Learn
+Hash Map Basics
+What is a Hash Map?
+Key-Value Pair
+Hash Function (Concept)
+Buckets (Concept)
+Collision (Concept)
+Dictionary in Python
+Hash Map Operations
+Insert
+Lookup
+Update
+Delete
+Iterate
+Membership Checking
+Sets
+What is a Set?
+Unique Elements
+Insert
+Remove
+Membership
+Set Operations (Basic)
+Common Use Cases
+Frequency Counting
+Duplicate Detection
+Fast Lookup
+Counting Occurrences
+Grouping Data
+Visited Elements
+⚙️ Operations You Should Know
+
+Hash Map
+
+Insert
+Search
+Update
+Delete
+Traverse Keys
+Traverse Values
+Traverse Key-Value Pairs
+
+Set
+
+Add
+Remove
+Membership Check
+Union (Basic)
+Intersection (Basic)
+🧠 Pattern Recognition
+
+Think Hash Map when the question contains:
+
+Frequency
+Duplicate
+Count
+Lookup
+Mapping
+Seen Before
+Pair Finding
+Fast Search
+
+Ask yourself:
+
+"Am I searching the same data repeatedly?"
+
+If yes
+
+↓
+
+Think Hash Map
+
+⏱️ Complexity
+Operation	Average
+Search	O(1)
+Insert	O(1)
+Delete	O(1)
+Traverse	O(n)
+
+Worst-case (rare):
+
+O(n)
+
+Understand why, but don't worry about implementation details yet.
+
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Two Sum
+Contains Duplicate
+Valid Anagram
+Intersection of Two Arrays
+Happy Number
+Isomorphic Strings
+Word Pattern
+Find the Difference
+Unique Number of Occurrences
+Missing Number (Hash Map solution first)
+
+Target:
+
+10 Easy Problems
+
+🟡 LeetCode Medium
+Group Anagrams
+Top K Frequent Elements
+Longest Consecutive Sequence
+Find All Anagrams in a String
+Subarray Sum Equals K
+Continuous Subarray Sum
+
+Target:
+
+6 Medium Problems
+
+🔴 Hard (Optional)
+Minimum Window Substring (Understand only)
+Alien Dictionary (Read the solution after Graphs if it feels overwhelming)
+❌ Common Mistakes
+Using a list instead of a dictionary.
+Forgetting to check if a key exists.
+Accidentally overwriting values.
+Confusing keys with values.
+Using Hash Maps when a Set is enough.
+Forgetting duplicate keys overwrite previous values.
+🎯 Interview Tips
+
+Whenever you see:
+
+Count
+
+Frequency
+
+Duplicate
+
+Lookup
+
+Pair
+
+Visited
+
+Immediately ask:
+
+Can a Hash Map reduce this to O(1) lookup?
+
+Also ask:
+
+Do I really need values?
+
+If not
+
+↓
+
+Use a Set instead.
+
+🔄 Revision Problems
+
+Re-solve without looking:
+
+Two Sum
+Valid Anagram
+Contains Duplicate
+Happy Number
+Top K Frequent Elements
+✅ Completion Checklist
+
+Move to Stage 6 only if you can:
+
+✅ Explain how a Hash Map works conceptually.
+✅ Know when to use a Set vs Hash Map.
+✅ Solve Easy Hash Map problems independently.
+✅ Solve most Medium problems with minimal hints.
+✅ Optimize brute-force solutions using Hash Maps.
+✅ Explain time complexity for all basic operations.

@@ -1,0 +1,196 @@
+📘 Phase 2 — LeetCode Foundation
+Stage 6 — Two Pointers
+🎯 Objective
+
+Master the Two Pointers technique to efficiently solve problems involving arrays and strings by reducing unnecessary traversals and eliminating brute-force solutions.
+
+Outcome:
+After completing this stage, you should recognize Two Pointer problems instantly and solve most Easy and Medium questions confidently.
+
+📖 Why Two Pointers Exist
+
+Imagine you're asked:
+
+Find two numbers that add up to a target.
+
+Brute Force:
+
+Check every pair
+
+↓
+
+O(n²)
+
+If the array is sorted...
+
+Can we move from both ends?
+
+Left Pointer →
+
+← Right Pointer
+
+Now each element is visited only once.
+
+O(n)
+
+That's why the Two Pointer technique exists.
+
+📚 Concepts to Learn
+Introduction
+What is Two Pointers?
+Why use Two Pointers?
+When does it work?
+Types of Two Pointers
+Opposite Direction
+←           →
+
+Used for:
+
+Pair Sum
+Sorted Arrays
+Palindrome
+Container Problems
+Same Direction
+→ →
+
+Used for:
+
+Remove Duplicates
+Move Zeroes
+Partitioning
+Stable Rearrangement
+Fast & Slow Pointer (Introduction)
+
+Learn the concept only.
+
+Later it will be heavily used in Linked Lists.
+
+⚙️ Operations You Should Know
+Move Left Pointer
+Move Right Pointer
+Compare Values
+Swap Elements
+Skip Duplicates
+Maintain Relative Order
+🧠 Pattern Recognition
+
+Think Two Pointers when the question contains:
+
+Sorted Array
+Pair
+Palindrome
+Reverse
+Compare Ends
+Remove Duplicates
+Move Elements
+Merge Arrays
+
+Ask yourself:
+
+Can I solve this by moving two indexes instead of using nested loops?
+
+If yes
+
+↓
+
+Think Two Pointers.
+
+⏱️ Complexity
+
+Typical Complexity:
+
+Operation	Complexity
+Traversal	O(n)
+Extra Space	O(1)
+
+Most Two Pointer problems reduce:
+
+O(n²)
+
+↓
+
+O(n)
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Two Sum II – Input Array Is Sorted
+Valid Palindrome
+Reverse String
+Merge Sorted Array
+Remove Duplicates from Sorted Array
+Remove Element
+Squares of a Sorted Array
+Reverse Vowels of a String
+Move Zeroes (Revisit using Two Pointers)
+
+Target:
+
+8–10 Easy Problems
+
+🟡 LeetCode Medium
+Container With Most Water
+3Sum
+Sort Colors
+Partition Labels
+Boats to Save People
+Bag of Tokens
+
+Target:
+
+6 Medium Problems
+
+🔴 Hard (Optional)
+Trapping Rain Water
+
+Understand the intuition.
+
+Don't spend days trying to perfect it.
+
+❌ Common Mistakes
+Moving the wrong pointer.
+Forgetting the array must be sorted (when required).
+Infinite loops.
+Missing duplicate handling.
+Confusing Two Pointers with Sliding Window.
+Using extra arrays unnecessarily.
+🎯 Interview Tips
+
+Ask yourself:
+
+Is the array sorted?
+
+↓
+
+YES
+
+↓
+
+Can two indexes solve this?
+
+or
+
+Need to compare from both ends?
+
+↓
+
+Think Two Pointers.
+🔄 Revision Problems
+
+Before moving on, solve again without looking:
+
+Two Sum II
+Valid Palindrome
+Remove Duplicates
+Merge Sorted Array
+Container With Most Water
+✅ Completion Checklist
+
+Move to Stage 7 only if you can:
+
+✅ Explain when Two Pointers should be used.
+✅ Distinguish Opposite vs Same Direction pointers.
+✅ Solve Easy problems independently.
+✅ Solve Medium problems with minimal hints.
+✅ Optimize brute-force solutions to O(n) where applicable.
+✅ Explain why each pointer moves.

@@ -1,0 +1,270 @@
+📘 Phase 4 — Advanced DSA
+Stage 17 — Dynamic Programming (DP)
+🎯 Objective
+
+Master Dynamic Programming by learning how to optimize recursive solutions using memoization and tabulation to solve problems involving overlapping subproblems and optimal substructure.
+
+Outcome:
+After completing this stage, you should be able to recognize Dynamic Programming problems, convert recursive solutions into efficient DP solutions, and solve common interview questions.
+
+📖 Why Dynamic Programming Exists
+
+Imagine calculating:
+
+fib(5)
+
+The recursion tree looks like this:
+
+                fib(5)
+               /      \
+          fib(4)      fib(3)
+          /    \      /    \
+      fib(3) fib(2) fib(2) fib(1)
+      /   \      \
+ fib(2) fib(1) fib(1)
+
+Notice something?
+
+You calculate:
+
+fib(3)
+
+multiple times.
+
+You calculate:
+
+fib(2)
+
+multiple times.
+
+You're doing the same work again and again.
+
+Dynamic Programming says:
+
+"If I've already solved it once, why solve it again?"
+
+Instead...
+
+Store the answer.
+
+Reuse it.
+
+That's Dynamic Programming.
+
+📚 Concepts to Learn
+Dynamic Programming Basics
+What is Dynamic Programming?
+Why DP Exists
+Overlapping Subproblems
+Optimal Substructure
+Memoization (Top-Down)
+
+Learn:
+
+Recursive DP
+Cache
+Dictionary Cache
+functools.lru_cache
+Tabulation (Bottom-Up)
+
+Learn:
+
+DP Table
+Bottom-Up Thinking
+Iterative DP
+Space Optimization
+
+Learn the idea of reducing:
+
+O(n)
+
+↓
+
+O(1)
+
+when possible.
+
+DP Thinking Process
+
+Learn how to identify:
+
+State
+Decision
+Transition
+Base Case
+
+This is the most important skill.
+
+⚙️ Operations You Should Know
+Memoization
+Tabulation
+State Transition
+Cache Results
+Optimize Space
+🧠 Pattern Recognition
+
+Think Dynamic Programming when the question contains:
+
+Maximum
+Minimum
+Count Ways
+Number of Ways
+Longest
+Shortest
+Best
+Optimal
+Cheapest
+Profit
+
+Ask yourself:
+
+Am I solving the same subproblem repeatedly?
+
+↓
+
+Think DP.
+
+Also ask:
+
+Does the problem ask for the best answer?
+
+↓
+
+Think DP.
+
+⏱️ Complexity
+
+Understand how DP improves complexity.
+
+Example
+
+Recursive Fibonacci
+
+O(2ⁿ)
+
+Memoization
+
+O(n)
+
+Tabulation
+
+O(n)
+
+Space Optimized
+
+O(1)
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself
+
+Fibonacci (Memoization)
+Fibonacci (Tabulation)
+Climbing Stairs
+House Robber (Basic)
+Minimum Cost Climbing Stairs
+
+These are perfect introductions before LeetCode.
+
+🟢 LeetCode Easy
+Climbing Stairs
+Min Cost Climbing Stairs
+House Robber
+Tribonacci Number
+
+Target:
+
+4 Easy Problems
+
+🟡 LeetCode Medium
+
+Solve in this order:
+
+House Robber II
+Coin Change
+Unique Paths
+Decode Ways
+Longest Increasing Subsequence
+Longest Common Subsequence
+Partition Equal Subset Sum
+Target Sum
+Word Break
+Best Time to Buy and Sell Stock with Cooldown
+
+Target:
+
+10 Medium Problems
+
+🔴 Hard (Optional)
+Edit Distance
+Burst Balloons
+Regular Expression Matching
+
+Read the editorial if necessary.
+
+Focus on understanding the state transition.
+
+❌ Common Mistakes
+Jumping into DP before writing recursion.
+Incorrect state definition.
+Wrong base cases.
+Forgetting to cache results.
+Incorrect DP table initialization.
+Using DP where a greedy solution works.
+🎯 Interview Tips
+
+Whenever you see:
+
+Maximum
+
+Minimum
+
+Best
+
+Longest
+
+Shortest
+
+Count Ways
+
+Ask yourself:
+
+Can this be solved using recursion first?
+
+If yes...
+
+Then ask:
+
+Am I solving the same problem repeatedly?
+
+If yes...
+
+↓
+
+Dynamic Programming.
+
+Never try to write DP immediately.
+
+First solve recursively.
+
+Then optimize.
+
+🔄 Revision Problems
+
+Without looking:
+
+Climbing Stairs
+House Robber
+Coin Change
+Unique Paths
+Longest Common Subsequence
+✅ Completion Checklist
+
+Move to Stage 18 only if you can:
+
+✅ Explain why DP exists.
+✅ Explain Memoization vs Tabulation.
+✅ Convert recursion into DP.
+✅ Solve Easy DP problems independently.
+✅ Solve most Medium DP problems with minimal hints.
+✅ Identify overlapping subproblems.
+✅ Define states and transitions.

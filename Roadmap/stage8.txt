@@ -1,0 +1,205 @@
+📘 Phase 2 — LeetCode Foundation
+Stage 8 — Binary Search
+🎯 Objective
+
+Master Binary Search by learning how to efficiently search sorted data and identify optimization problems that can be solved by reducing the search space from O(n) to O(log n).
+
+Outcome:
+After completing this stage, you should recognize Binary Search patterns, implement different Binary Search variations, and solve Easy and Medium interview problems confidently.
+
+📖 Why Binary Search Exists
+
+Imagine finding a name in a phone book.
+
+Would you start from page one?
+
+No.
+
+You open the middle.
+
+Middle
+
+↓
+
+Too Small?
+
+↓
+
+Go Right
+
+↓
+
+Too Large?
+
+↓
+
+Go Left
+
+Every comparison removes half of the remaining search space.
+
+Instead of checking every element:
+
+O(n)
+
+You check:
+
+O(log n)
+
+That's why Binary Search exists.
+
+📚 Concepts to Learn
+Binary Search Basics
+What is Binary Search?
+Why must the data be sorted?
+Divide and Conquer idea
+Search Space
+Left Pointer
+Right Pointer
+Mid Calculation
+Search Termination
+Binary Search Variations
+Standard Binary Search
+First Occurrence
+Last Occurrence
+Lower Bound
+Upper Bound
+Search Insert Position
+Binary Search on Answer
+
+Learn the concept only.
+
+Used when:
+
+You're searching for the smallest possible answer.
+You're searching for the largest possible answer.
+
+Examples come later.
+
+Recursive Binary Search
+Recursive implementation
+Comparison with iterative approach
+⚙️ Operations You Should Know
+Search
+First Occurrence
+Last Occurrence
+Insert Position
+Boundary Search
+🧠 Pattern Recognition
+
+Think Binary Search when the problem contains:
+
+Sorted Array
+Sorted List
+Search
+Position
+First
+Last
+Minimum
+Maximum
+Monotonic Property
+
+Ask yourself:
+
+Can I eliminate half of the search space after each comparison?
+
+If yes
+
+↓
+
+Think Binary Search.
+
+⏱️ Complexity
+Operation	Complexity
+Binary Search	O(log n)
+Space (Iterative)	O(1)
+Space (Recursive)	O(log n)
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Binary Search
+Search Insert Position
+Guess Number Higher or Lower
+First Bad Version
+Valid Perfect Square
+Sqrt(x)
+
+Target:
+
+6 Easy Problems
+
+🟡 LeetCode Medium
+
+Solve in this order:
+
+Find Peak Element
+Search in Rotated Sorted Array
+Find Minimum in Rotated Sorted Array
+Search a 2D Matrix
+Koko Eating Bananas (Binary Search on Answer)
+Capacity To Ship Packages Within D Days (Binary Search on Answer)
+Find First and Last Position of Element in Sorted Array
+
+Target:
+
+7 Medium Problems
+
+🔴 Hard (Optional)
+Median of Two Sorted Arrays
+
+Don't worry if you can't solve it.
+
+Understand the intuition and move on.
+
+❌ Common Mistakes
+Forgetting the array must be sorted.
+Infinite loops.
+Incorrect mid calculation.
+Updating the wrong pointer.
+Missing boundary conditions.
+Returning the wrong index.
+Forgetting to save the answer before continuing the search.
+🎯 Interview Tips
+
+Whenever you see:
+
+Sorted
+
+↓
+
+Search
+
+↓
+
+Position
+
+Think Binary Search immediately.
+
+Also ask yourself:
+
+Is this problem asking me to search an answer, not an array?
+
+Many Medium interview questions hide Binary Search inside optimization problems.
+
+🔄 Revision Problems
+
+Before moving on, solve again:
+
+Binary Search
+Search Insert Position
+First Bad Version
+Search in Rotated Sorted Array
+Koko Eating Bananas
+
+Without looking at previous solutions.
+
+✅ Completion Checklist
+
+Move to Phase 3 only if you can:
+
+✅ Implement Binary Search from memory.
+✅ Explain why Binary Search is O(log n).
+✅ Solve Easy Binary Search problems independently.
+✅ Solve Medium problems with minimal hints.
+✅ Understand First/Last Occurrence.
+✅ Recognize Binary Search on Answer.

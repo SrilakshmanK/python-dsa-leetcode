@@ -1,0 +1,230 @@
+Stage 11 — Queue & Deque
+🎯 Objective
+
+Master the Queue and Deque data structures to efficiently solve problems involving sequential processing, breadth-first traversal, scheduling, and sliding window techniques.
+
+Outcome:
+After completing this stage, you should confidently recognize Queue-based problems, implement Queue and Deque operations, and solve common interview questions.
+
+📖 Why Queues Exist
+
+Imagine people standing in a ticket counter.
+
+The first person who enters the line gets served first.
+
+Front
+
+↓
+
+[A] [B] [C] [D]
+
+              ↑
+
+            Rear
+
+Person A entered first.
+
+Person A leaves first.
+
+First In
+
+↓
+
+First Out
+
+This is called FIFO (First In, First Out).
+
+📚 Concepts to Learn
+Queue Basics
+What is a Queue?
+FIFO Principle
+Queue Representation
+Queue Applications
+Queue Operations
+Enqueue
+Dequeue
+Front / Peek
+Rear
+isEmpty
+Size
+Queue Implementation
+Using collections.deque
+Basic Custom Queue Class
+Deque (Double Ended Queue)
+
+Learn:
+
+What is a Deque?
+Insert Front
+Insert Rear
+Remove Front
+Remove Rear
+Peek Front
+Peek Rear
+Queue Applications
+Breadth First Search (Preview)
+Task Scheduling
+Printer Queue
+CPU Scheduling
+Message Queue
+Sliding Window
+Buffering
+⚙️ Operations You Should Know
+
+Queue
+
+Enqueue
+Dequeue
+Peek
+isEmpty
+Size
+
+Deque
+
+append()
+appendleft()
+pop()
+popleft()
+🧠 Pattern Recognition
+
+Think Queue when the question contains:
+
+Process in Order
+Waiting Line
+Scheduling
+Breadth First Search
+Level by Level
+First Come First Serve
+
+Think Deque when the question contains:
+
+Sliding Window
+Remove from Both Ends
+Maintain Maximum
+Maintain Minimum
+
+Ask yourself:
+
+Do I always need the oldest element first?
+
+↓
+
+Queue
+
+Need both ends?
+
+↓
+
+Deque
+
+⏱️ Complexity
+Queue
+Operation	Complexity
+Enqueue	O(1)
+Dequeue	O(1)
+Peek	O(1)
+isEmpty	O(1)
+Deque
+Operation	Complexity
+append()	O(1)
+appendleft()	O(1)
+pop()	O(1)
+popleft()	O(1)
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself:
+
+Queue using deque
+Queue using List (Understand why it's inefficient)
+Custom Queue Class
+Circular Queue (Basic)
+Reverse First K Elements of Queue
+Generate Binary Numbers using Queue
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Implement Queue using Stacks
+Number of Recent Calls
+Moving Average from Data Stream
+Design Circular Queue
+
+Target:
+
+4 Easy Problems
+
+🟡 LeetCode Medium
+Dota2 Senate
+Open the Lock (Introduction to BFS)
+Rotting Oranges (Introduction to BFS)
+Reveal Cards in Increasing Order
+
+Target:
+
+4 Medium Problems
+
+Note: Some of these introduce Breadth-First Search. Don't worry about mastering BFS yet—you're learning how Queues are used in real problems.
+
+🔴 Hard (Optional)
+Sliding Window Maximum (using Deque)
+
+Understand the idea.
+
+You'll revisit it during Advanced Interview Patterns.
+
+❌ Common Mistakes
+Using a Python List as a Queue (pop(0) is O(n)).
+Forgetting FIFO order.
+Confusing Queue with Stack.
+Removing from the wrong end of a Deque.
+Forgetting empty queue checks.
+🎯 Interview Tips
+
+Whenever you see:
+
+Level Order
+
+Scheduling
+
+Waiting
+
+Processing Order
+
+Breadth First Search
+
+Immediately ask:
+
+Should I use a Queue?
+
+Whenever you see:
+
+Sliding Window
+
+Maximum
+
+Minimum
+
+Remove from both ends
+
+Think:
+
+Deque
+
+🔄 Revision Problems
+
+Without looking at previous solutions:
+
+Implement Queue using Stacks
+Number of Recent Calls
+Design Circular Queue
+Rotting Oranges
+✅ Completion Checklist
+
+Move to Stage 12 only if you can:
+
+✅ Explain FIFO.
+✅ Explain the difference between Queue and Stack.
+✅ Use Python's collections.deque confidently.
+✅ Implement a Queue from scratch.
+✅ Solve Easy Queue problems independently.
+✅ Understand when Deque is the better choice.

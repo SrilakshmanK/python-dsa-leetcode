@@ -1,0 +1,202 @@
+📘 Phase 3 — Core Data Structures & Algorithms
+Stage 14 — Heap (Priority Queue)
+🎯 Objective
+
+Master Heaps and Priority Queues by understanding how they efficiently maintain the smallest or largest element and solve common interview problems involving priorities, rankings, and Top-K elements.
+
+Outcome:
+After completing this stage, you should confidently recognize Heap problems, use Python's heapq module, and solve Easy and Medium interview questions.
+
+📖 Why Heaps Exist
+
+Imagine a hospital emergency room.
+
+Patients aren't treated in the order they arrive.
+
+Instead:
+
+Critical Patient
+
+↓
+
+Highest Priority
+
+↓
+
+Treated First
+
+A normal Queue can't do this.
+
+A Heap can.
+
+A Heap always keeps the highest (or lowest) priority element ready.
+
+📚 Concepts to Learn
+Heap Basics
+What is a Heap?
+Complete Binary Tree
+Heap Property
+Parent Node
+Child Node
+Types of Heap
+Min Heap
+
+Smallest element stays at the root.
+
+Max Heap
+
+Largest element stays at the root.
+
+Priority Queue
+What is a Priority Queue?
+Heap vs Queue
+Heap vs Binary Search Tree
+Python Heap
+
+Learn Python's built-in module:
+
+import heapq
+
+Functions:
+
+heapify()
+heappush()
+heappop()
+heappushpop()
+heapreplace()
+nlargest()
+nsmallest()
+
+Understand that Python's heapq is a Min Heap by default.
+
+⚙️ Operations You Should Know
+Insert
+Remove Minimum
+Peek Minimum
+Heapify
+Build Heap
+Extract Minimum
+Simulate Max Heap
+🧠 Pattern Recognition
+
+Think Heap when the problem contains:
+
+K Largest
+K Smallest
+Top K
+Priority
+Closest
+Frequent
+Merge Sorted Lists
+Scheduling
+Stream of Data
+
+Ask yourself:
+
+Do I repeatedly need the smallest or largest element?
+
+↓
+
+Think Heap.
+
+⏱️ Complexity
+Operation	Complexity
+Peek	O(1)
+Insert	O(log n)
+Remove Root	O(log n)
+Heapify	O(n)
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself:
+
+Build Min Heap using heapq
+Insert into Heap
+Remove Smallest Element
+Find K Largest Elements
+Find K Smallest Elements
+Heap Sort (Understand the idea)
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Last Stone Weight
+Kth Largest Element in a Stream
+Relative Ranks
+
+Target:
+
+3 Easy Problems
+
+🟡 LeetCode Medium
+Kth Largest Element in an Array
+Top K Frequent Elements
+Find K Closest Elements
+K Closest Points to Origin
+Merge K Sorted Lists
+Task Scheduler
+Reorganize String
+
+Target:
+
+7 Medium Problems
+
+🔴 Hard (Optional)
+Find Median from Data Stream
+Sliding Window Median
+
+Read the approach and understand why two heaps are used.
+
+❌ Common Mistakes
+Forgetting Python uses a Min Heap by default.
+Sorting the entire array when only Top-K is required.
+Using a Heap when sorting is simpler.
+Forgetting to maintain heap size.
+Confusing Heap with Binary Search Tree.
+🎯 Interview Tips
+
+Whenever you see:
+
+Top K
+
+↓
+
+Highest Priority
+
+↓
+
+Smallest
+
+↓
+
+Largest
+
+↓
+
+Streaming Data
+
+Immediately ask:
+
+Should I use a Heap?
+
+Many Top-K interview questions are designed to test Heap knowledge.
+
+🔄 Revision Problems
+
+Without looking:
+
+Last Stone Weight
+Kth Largest Element in a Stream
+Kth Largest Element in an Array
+Top K Frequent Elements
+K Closest Points to Origin
+✅ Completion Checklist
+
+Move to Phase 4 only if you can:
+
+✅ Explain the Heap Property.
+✅ Explain Min Heap vs Max Heap.
+✅ Use Python's heapq confidently.
+✅ Solve Easy Heap problems independently.
+✅ Solve most Medium Heap problems with minimal hints.
+✅ Recognize Top-K and Priority Queue patterns.
+✅ Explain the time complexity of Heap operations.

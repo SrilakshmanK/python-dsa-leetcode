@@ -1,0 +1,211 @@
+📘 Phase 3 — Core Data Structures & Algorithms
+Stage 12 — Linked List
+🎯 Objective
+
+Master Linked Lists by understanding how nodes are connected through references instead of indexes, and solve common interview problems involving pointer manipulation.
+
+Outcome:
+After completing this stage, you should confidently implement and manipulate Linked Lists, recognize common Linked List patterns, and solve Easy and Medium interview questions.
+
+📖 Why Linked Lists Exist
+
+Arrays have one major limitation.
+
+Imagine this array:
+
+[10] [20] [30] [40]
+
+Insert 15 at index 1.
+
+Everything after it must move.
+
+[10] [15] [20] [30] [40]
+
+That's O(n).
+
+Instead...
+
+A Linked List stores each element separately.
+
++------+      +------+      +------+
+| 10 | •| ---> |20 | •| ---> |30 | X|
++------+      +------+      +------+
+
+Each node knows only the address of the next node.
+
+No shifting required.
+
+📚 Concepts to Learn
+Linked List Basics
+What is a Linked List?
+Node
+Data
+Next Pointer
+Head
+Tail
+Types of Linked Lists
+Singly Linked List
+Doubly Linked List
+Circular Linked List (Concept)
+Circular Doubly Linked List (Concept)
+Linked List Operations
+Traversal
+Search
+Insertion at Beginning
+Insertion at End
+Insertion at Position
+Deletion at Beginning
+Deletion at End
+Deletion by Value
+Deletion by Position
+Pointer Manipulation
+
+Learn carefully:
+
+Previous Node
+Current Node
+Next Node
+
+This is the most important skill in Linked Lists.
+
+⚙️ Operations You Should Know
+Traverse
+Insert
+Delete
+Search
+Reverse
+Find Length
+Find Middle
+Detect Cycle
+🧠 Pattern Recognition
+
+Think Linked List when the question contains:
+
+Nodes
+Next Pointer
+Reverse
+Merge
+Cycle
+Middle Element
+Remove Node
+Rearrange List
+
+Ask yourself:
+
+Am I moving through references instead of indexes?
+
+↓
+
+Linked List.
+
+⏱️ Complexity
+Operation	Complexity
+Access	O(n)
+Search	O(n)
+Insert at Head	O(1)
+Delete at Head	O(1)
+Insert at Tail (with tail pointer)	O(1)
+Reverse	O(n)
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself:
+
+Create a Node Class
+Create a Singly Linked List
+Traverse the List
+Insert at Beginning
+Insert at End
+Delete First Node
+Delete Last Node
+Search for a Value
+Reverse Linked List
+Find Length
+Find Middle Node
+
+Do these before LeetCode.
+
+🟢 LeetCode Easy
+
+Solve in this order:
+
+Reverse Linked List
+Middle of the Linked List
+Linked List Cycle
+Merge Two Sorted Lists
+Remove Linked List Elements
+Palindrome Linked List
+
+Target:
+
+6 Easy Problems
+
+🟡 LeetCode Medium
+Remove Nth Node From End of List
+Swap Nodes in Pairs
+Reorder List
+Add Two Numbers
+Partition List
+Rotate List
+Odd Even Linked List
+
+Target:
+
+7 Medium Problems
+
+🔴 Hard (Optional)
+Reverse Nodes in k-Group
+Merge k Sorted Lists
+
+Read the approach if they feel too difficult.
+
+❌ Common Mistakes
+Losing the next node before changing pointers.
+Forgetting to update the head.
+Null pointer errors.
+Infinite loops.
+Returning the wrong head.
+Mixing node values with node references.
+🎯 Interview Tips
+
+Whenever you solve a Linked List problem:
+
+Always draw it.
+
+Example:
+
+Head
+
+↓
+
+1 → 2 → 3 → 4 → None
+
+Move pointers on paper first.
+
+Never try to visualize everything in your head.
+
+Also ask:
+
+Do I need one pointer?
+Two pointers?
+Fast & Slow pointers?
+Previous pointer?
+🔄 Revision Problems
+
+Without looking:
+
+Reverse Linked List
+Middle of the Linked List
+Merge Two Sorted Lists
+Linked List Cycle
+Remove Nth Node From End
+✅ Completion Checklist
+
+Move to Stage 13 only if you can:
+
+✅ Explain how Linked Lists differ from Arrays.
+✅ Implement a Singly Linked List from scratch.
+✅ Insert and delete nodes confidently.
+✅ Reverse a Linked List.
+✅ Detect a cycle using Fast & Slow pointers.
+✅ Solve Easy problems independently.
+✅ Solve Medium problems with minimal hints.

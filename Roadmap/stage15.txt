@@ -1,0 +1,243 @@
+📘 Phase 4 — Advanced DSA
+Stage 15 — Backtracking
+🎯 Objective
+
+Master Backtracking by learning how to systematically explore all possible solutions, undo decisions when necessary, and solve constraint-based problems.
+
+Outcome:
+After completing this stage, you should confidently recognize Backtracking problems and solve Easy and Medium interview questions involving combinations, permutations, subsets, and search.
+
+📖 Why Backtracking Exists
+
+Imagine you're solving a maze.
+
+You choose one path.
+
+Start
+
+↓
+
+↓
+
+↓
+
+Dead end?
+
+Go back.
+
+Try another path.
+
+Choose
+
+↓
+
+Explore
+
+↓
+
+Dead End
+
+↓
+
+Undo
+
+↓
+
+Choose Another Path
+
+This process is called Backtracking.
+
+Instead of committing to one answer, you:
+
+Choose
+Explore
+Undo
+Try Again
+📚 Concepts to Learn
+Backtracking Basics
+What is Backtracking?
+Decision Tree
+State Space
+Choice
+Constraint
+Backtrack Step
+Backtracking Process
+
+Learn the four-step framework:
+
+Choose
+
+↓
+
+Explore
+
+↓
+
+Undo
+
+↓
+
+Repeat
+Recursive Backtracking
+
+Understand:
+
+Base Case
+Make Choice
+Recursive Call
+Undo Choice
+Pruning (Introduction)
+
+Learn:
+
+What is Pruning?
+Why avoid unnecessary branches?
+Early stopping
+
+(No advanced pruning yet.)
+
+⚙️ Operations You Should Know
+Choose an option
+Explore recursively
+Undo the choice
+Continue searching
+Store valid solutions
+🧠 Pattern Recognition
+
+Think Backtracking when the question contains:
+
+All Possible Ways
+Generate
+Combination
+Permutation
+Subset
+Sudoku
+N-Queens
+Word Search
+Restore
+Partition
+
+Ask yourself:
+
+Do I need to try every possible choice?
+
+↓
+
+Yes
+
+↓
+
+Think Backtracking.
+
+⏱️ Complexity
+
+Most Backtracking problems are exponential.
+
+Typical complexities:
+
+Problem	Complexity
+Subsets	O(2ⁿ)
+Permutations	O(n!)
+N-Queens	Exponential
+Sudoku	Exponential
+
+Understand:
+
+Backtracking is usually slow by nature.
+
+The goal is correctness first.
+
+Optimization comes later.
+
+🟢 Practice Problems (Non-LeetCode)
+
+Implement yourself:
+
+Generate All Subsets
+Generate All Permutations
+Generate All Combinations
+String Permutations
+Maze Path Finder (Basic)
+🟢 LeetCode Easy
+
+There aren't many true Easy Backtracking problems.
+
+Start directly with simpler Medium problems.
+
+🟡 LeetCode Medium
+
+Solve in this order:
+
+Subsets
+Subsets II
+Permutations
+Permutations II
+Combinations
+Combination Sum
+Combination Sum II
+Letter Combinations of a Phone Number
+Palindrome Partitioning
+Word Search
+
+Target:
+
+10 Medium Problems
+
+🔴 Hard (Optional)
+N-Queens
+Sudoku Solver
+Expression Add Operators
+
+Don't worry if these take several hours.
+
+Understand the recursion tree.
+
+❌ Common Mistakes
+Forgetting to undo choices.
+Modifying shared lists incorrectly.
+Missing base cases.
+Returning too early.
+Duplicate solutions.
+Infinite recursion.
+Not copying the current solution before storing it.
+🎯 Interview Tips
+
+Whenever you see:
+
+Generate
+
+All
+
+Every
+
+Possible
+
+Combination
+
+Permutation
+
+Immediately ask:
+
+Can I recursively explore every choice and backtrack?
+
+The word "All" is often the biggest clue.
+
+🔄 Revision Problems
+
+Without looking:
+
+Subsets
+Permutations
+Combination Sum
+Word Search
+Palindrome Partitioning
+✅ Completion Checklist
+
+Move to Stage 16 only if you can:
+
+✅ Explain the Backtracking framework.
+✅ Write recursive Backtracking solutions from scratch.
+✅ Undo choices correctly.
+✅ Solve Medium problems independently.
+✅ Draw the recursion tree.
+✅ Explain why Backtracking is exponential.
