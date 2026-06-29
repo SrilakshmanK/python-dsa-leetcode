@@ -33,10 +33,12 @@ Print Prime Numbers (1–N)
 Factorial
 Fibonacci Series
 GCD / HCF
-LCM
+LCM---------------->28-06-2026
 Perfect Number
 Strong Number
-String Problems
+
+String Problems:
+
 Reverse String
 Palindrome String
 Count Vowels
@@ -47,7 +49,9 @@ Character Frequency
 Remove Spaces
 Toggle Case
 Check Anagram
-Array Problems
+
+Array Problems:
+
 Find Maximum
 Find Minimum
 Find Second Largest
@@ -58,7 +62,9 @@ Count Even & Odd
 Linear Search
 Reverse Array
 Copy Array
-Pattern Problems
+
+Pattern Problems:
+
 Right Triangle
 Inverted Triangle
 Pyramid
@@ -67,7 +73,9 @@ Floyd's Triangle
 Number Pyramid
 Diamond Pattern
 Hollow Square
-Basic Logic Problems
+
+Basic Logic Problems:
+
 Count Occurrences
 Remove Duplicates (without sets)
 Find Largest Digit

@@ -1,0 +1,5 @@
+O(n)  == order of n == the works grow if the n grows 
+
+O(n2) == the work grows 2 times 
+
+O(1)  == this means constant the value is not going to change 
