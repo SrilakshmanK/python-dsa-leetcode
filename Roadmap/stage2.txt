@@ -35,7 +35,7 @@ Fibonacci Series
 GCD / HCF
 LCM---------------->28-06-2026
 Perfect Number
-Strong Number
+Strong Number  -----> 01-07-2026 completed :)
 
 String Problems:
 

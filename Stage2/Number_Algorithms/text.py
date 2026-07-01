@@ -1,12 +1,22 @@
-n = int(input("Enter the Number : "))
+n = int(input("Enter the number : "))
+
+original=n
+strong_num=0
+result=1
 
 
-for i in range (1, n+1):
-  count_factor=0
-  for j in range (1, n+1):
-    
-    if i % j == 0 :
-      count_factor += 1
-  if count_factor == 2:
-    print(i)
-    
+while n != 0 :
+    digit = n % 10
+
+    for i in range (1, digit+1):
+        result = result * i
+
+    strong_num += result
+    result=1
+    n //= 10
+
+if original == strong_num:
+    print("Its a strong number . ")
+else:
+    print("Its not a strong number . ")
+
