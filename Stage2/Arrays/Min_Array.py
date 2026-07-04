@@ -1,0 +1,9 @@
+arr = [-8, -5, -10, -3 , 1]
+
+min_value = arr[0]
+
+for i in range (1, len(arr)):
+    if  arr[i] < min_value :
+        min_value = arr[i]
+
+print(min_value)
