@@ -1,0 +1,4 @@
+Your job is this: I'll send you code. Don't change the logic or use any built-in functions. 
+Just suggest if there's another way to shorten the code or write it more smartly.
+Alongside that, evaluate my English as well. 
+For example, you should evaluate this sentence too.
