@@ -1,0 +1,184 @@
+📘 Stage 1 — Foundation Programs
+🎯 Objective
+
+Build a strong understanding of the core programming concepts that every developer must master before solving logical problems or learning advanced topics.
+
+Outcome:
+After completing this stage, you should be comfortable writing simple programs, understanding how code executes, and using the fundamental building blocks of any programming language.
+
+Why This Stage Exists
+
+Programming is more than memorizing syntax.
+
+Before learning problem-solving, you must understand how a program is built, how data flows through it, how functions work, and how Object-Oriented Programming organizes code.
+
+These concepts remain the same whether you use Python, Java, C++, JavaScript, or C#.
+
+Topics
+Input & Output
+
+Learn how programs communicate with users.
+
+Programs
+
+Print Output
+Read User Input
+Multiple Inputs
+Formatted Output
+Variables & Data Types
+
+Understand how data is stored and manipulated.
+
+Programs
+
+Variable Declaration
+Data Types
+Type Conversion
+Swap Two Variables
+Constants
+Operators
+
+Perform calculations and comparisons.
+
+Programs
+
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+Logical Operators
+Bitwise Operators
+Conditional Statements
+
+Make decisions in a program.
+
+Programs
+
+if Statement
+if-else
+else-if Ladder
+Nested if
+Switch / Match (language dependent)
+Loops
+
+Execute repetitive tasks.
+
+Programs
+
+for Loop
+while Loop
+do-while Loop (if supported)
+Nested Loops
+Break Statement
+Continue Statement
+Functions
+
+Organize reusable code.
+
+Programs
+
+Function without Parameters
+Function with Parameters
+Function with Return Value
+Function Overloading (where supported)
+Variable Scope
+Recursive Function (Introduction)
+Strings
+
+Work with textual data.
+
+Programs
+
+String Declaration
+String Traversal
+String Length
+String Concatenation
+Basic String Operations
+String Methods
+Collections
+
+Store multiple values together.
+
+Programs
+
+Arrays / Lists
+Traversing Collections
+Basic List Operations
+Sets
+Tuples
+Dictionaries / Maps (Introduction)
+Object-Oriented Programming
+
+Learn how real-world software is structured.
+
+Programs
+
+Object Creation
+Class
+Constructor
+Instance Variables
+Static Variables
+Instance Methods
+Static Methods
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+At This Stage Ask Yourself
+What is the purpose of this statement?
+How does data move through my program?
+Which data type should I use?
+When should I use a function?
+Can I explain my code line by line?
+When should I create an object instead of writing everything in one function?
+Common Mistakes
+Forgetting variable initialization
+Using the wrong data type
+Incorrect operator precedence
+Infinite loops
+Confusing = with ==
+Incorrect function parameters
+Variable scope mistakes
+Confusing objects with classes
+Not understanding constructors
+Ignoring encapsulation
+Completion Criteria
+
+Move to Stage 2 only if you can:
+
+✅ Write programs using variables, loops, and conditions confidently.
+
+✅ Create and call functions without help.
+
+✅ Explain the difference between local and global variables.
+
+✅ Work comfortably with strings and collections.
+
+✅ Understand how objects and classes interact.
+
+✅ Explain the four pillars of OOP in your own words.
+
+✅ Read a simple program and predict its output before running it.
+
+Mini Challenge (No Tutorials)
+
+Complete these entirely on your own:
+
+Calculator Program
+Student Grade Calculator
+Number Guessing Game
+String Manipulation Program
+Array/List Traversal
+Basic Banking System (Console)
+Library Book Class
+Employee Class with Constructor
+Vehicle Inheritance Example
+Shape Polymorphism Example
+🎯 Goal
+
+By the end of Stage 1, syntax should no longer be your focus.
+
+You should think:
+
+"I know the language. Now it's time to solve problems."
+
+That's the point where you're ready to move to 📘 Stage 2 — Logic Building.

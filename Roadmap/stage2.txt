@@ -46,9 +46,9 @@ Count Consonants
 Count Words
 Count Characters
 Character Frequency
-Remove Spaces
+Remove Spaces ----> 02-07-2026 
 Toggle Case
-Check Anagram
+Check Anagram ---> 03-07-2026
 
 Array Problems:
 
@@ -58,7 +58,7 @@ Find Second Largest
 Find Second Smallest
 Sum of Array
 Average of Array
-Count Even & Odd
+Count Even & Odd  ----> 04-07-2026 
 Linear Search
 Reverse Array
 Copy Array
