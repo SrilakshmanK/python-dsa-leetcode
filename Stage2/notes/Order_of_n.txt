@@ -2,4 +2,10 @@ O(n)  == order of n == the works grow if the n grows
 
 O(n2) == the work grows 2 times 
 
-O(1)  == this means constant the value is not going to change 
+O(1)  == this means constant the value is not going to change   
+
+The outer loop runs n times. For each row, the inner loops print spaces and stars, with up to O(n) work per row. 
+Therefore, the total time complexity is O(n²).
+
+The algorithm uses only a fixed number of variables and does not store the generated pattern in an additional data structure.
+Therefore, the auxiliary space complexity is O(1).
